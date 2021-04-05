@@ -2,9 +2,11 @@
 
 from spiral import homework
 
+
 def test_five():
     """"  Test the 5 from the assignments. """
     assert homework.spiralize(5) == 101
+
 
 def test_seven():
     """ Test the 7 number to validate the approach.  This is small enough to do by hand if you get confused  """
@@ -259,5 +261,3 @@ def test_491():
 def test_501():
     """  Test the 501 from the assignments. """
     assert homework.spiralize(501) == 83960501
-
-
