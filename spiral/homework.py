@@ -18,10 +18,10 @@ def spiralize(number):
 if __name__ == "__main__":
     start = time()
     ans = spiralize(501)
-    elapsed_time = (timer() - start) * 1000
+    elapsed_time = (timer() - start) * 500
     if ans:
         print("Found Sum")
     else:
         print("No answer found")
 
-        return return_value
+return return_value
